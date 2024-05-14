@@ -1,0 +1,30 @@
+.gallery {
+    width: 95%;
+    margin: 30px;    
+    article {
+        width: 100%;
+        position: relative;        
+        button {
+            width: 200px;
+            height: 40px;
+            background-color: blue;
+            border-radius: 20px;
+            border: none;
+            color: white; 
+            cursor: pointer;                       
+            position: absolute;
+            top: 200px;
+            left: 420px;
+            a {
+                color: white;
+                text-decoration: none;
+                font-size: 18px;
+                font-weight: 600;
+            }
+            &:hover {
+                background-color:chartreuse ;
+                transition : 0.7s ;
+            }
+        }
+    }   
+}

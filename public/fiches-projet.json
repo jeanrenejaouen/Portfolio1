@@ -1,0 +1,80 @@
+[
+	{
+		"id": "c67ab8a7",
+		"title": "Rinding cities",
+		"subtitle": "Association sportive qui promeut le skate",
+		"cover": "https://www.neoglisse.fr/wp-content/uploads/2023/07/max-tarkhov-NG4684I8Bng-unsplash-min-1024x819.jpg",		
+		"description": "J'ai rejoint l’agence Webonzaï pour un stage en tant que développeur junior. Ma mission était de mettre à jour la page Internet de Riding Cities, une association sportive qui promeut le skate. ",		
+		"skills": [
+			"HTML5",
+			"CSS3"
+		],
+		"assignment": [
+			"Créer une nouvelle section, “Les membres fondateurs”, contenant du texte et des images en colonnes avec les noms et photos des créateurs de l’association.",
+			"Modifier la section comprenant le bouton “Télécharger le planning de cours” pour ajouter un titre et deux boutons permettant de télécharger deux plannings de cours différents (un pour les enfants et un pour les adultes).",
+			"Rattacher les plannings de cours pour enfants et pour adultes aux boutons de téléchargement."
+		],
+		"resources": [
+			"Mettez en place votre environnement",
+			"Créer votre site web avec HTML5 et CSS3"
+		]
+	},
+
+	{
+		"id": "c67ab8a8",
+		"title": "Agence de voyage Booki",
+		"cover": "http://127.0.0.1:5500/Jaouen_JeanRen%C3%A9_1_images-code-html-et-css_2023-09-11/index.html",		
+		"description": " J'ai effectué un stage en alternance en tant que développeur web au sein de la start-up Booki. Le projet était le développement du site internet de l’agence de voyage Booki permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix.  ",		
+		"skills": [
+			"Implémenter une interface responsive avec HTML et CSS",
+			" Installer un environnement de développement front-end",
+			" Intégrer du contenu conformément à une maquette avec HTML et CSS"
+		],
+		"assignment": [
+			"Mettre en place votre environnement de développement : Visual Studio Code, Google Fonts et Font Awesome.",
+			"Découper la maquette représentant la structure du code HTML.",
+			"Intégrez le header du projet et utiliser Flexbox (ou Grid).",
+			"Ajouter le formulaire de recherche.",
+			"Ajout de la partie Filtres avec Flexbox",
+			"Réaliser une première « card » présente dans «Hébergements à Marseille » (utiliser une largeur d'image en “%” et la propriété object-fit)",
+			"Gérer l’affichage des “cards” du conteneur “Hébergements à Marseille” (utiliser Flexbox et une largeur d'image en “%”)",
+			"Intégrer le conteneur “Activités à Marseille”",
+			" Implémenter le footer avec Flexbox",
+			"Mettre en place le responsive design (respecter les deux media queries définies : 1024px pour l’affichage tablette et 768px pour l’affichage mobile) "
+		],
+		"resources": [
+			"Mettez en place votre environnement front-end",
+			"Créer votre site web avec HTML5 et CSS3",
+			"Corrigez vos bugs et trouvez une solution à vos problèmes de code",
+			"Intégrez une maquette Figma en HTML / CSS",
+			"Créez une maquette pour le développement web",
+			"Créez une maquette web avec Figma "
+		]
+	},
+
+	{
+		"id": "c67ab8a9",
+		"title": "Ohmyfood",
+		"cover": "https://...jpg",		
+		"description": " J'ai intégré Ohmyfood en tant que développeur junior. Il s’agit d’une jeune startup qui voudrait s'imposer sur le marché de la restauration.Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. Ma mission était de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques.   ",		
+		"skills": [
+			"Intégrer une maquette en mobile-first",
+			"Mettre en œuvre des animations CSS soignées",
+			"Versionner son projet avec Git et Github",
+			"Utiliser SASS pour le style"
+		],
+		"assignment": [
+			"Mettre en place votre environnement de développement : mettre le projet sur GitHub et créer une structure de projet contenant un dossier pour les assets, un dossier pour le SASS ou le CSS et un dossier pourles pages restaurants",
+			"Intégrer la version mobile de la page d’accueil sans les animations.",
+			"Ajouter les animations à la page d’accueil.",
+			"Réaliser le responsive de la page d’accueil en identifiant des breakpoints standard afin d’éviter de multiplier les media queries.",
+			"Intégrer le code d’une page de restaurant et valider la page au W3C pour le HTML et le CSS.",
+			"Copier la page de restaurant et adapter le contenu aux restaurants restants dans tous les formats. "			
+		],
+		"resources": [
+			"Les maquettes desktop et mobile du site Ohmyfood.",
+			" Le prototype du site via Figma incluant les animations et comportements à intégrer.",
+			"Les fichiers sources (images et textes)."			
+		]
+	}
+]
