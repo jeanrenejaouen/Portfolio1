@@ -83,7 +83,7 @@
 		"id": "c67ab8a10",
 		"title": "Print it !",
 		"subtitle": "",
-		"cover": "https://github.com/.png",		
+		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/Printit.png",		
 		"description": "Comme développeur front-end débutant en freelance, j'ai décroché une offre pour dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it. ",		
 		"skills": [
 			"",
@@ -107,10 +107,10 @@
 	},
 	{
 		"id": "c67ab8a11",
-		"title": " ",
+		"title": "Sophie Buel - Architecte",
 		"subtitle": "",
-		"cover": "https://github.com/.png",		
-		"description": "",		
+		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/SophieBuel.png",		
+		"description": "J'ai travaillé comme développeur front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé mon dernier projet avec un peu d'avance, j'ai été envoyé en renfort comme développeur front-end dans une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur pour créer une page web dynamique avec Javascript.",		
 		"skills": [
 			"",
 			"",
@@ -135,7 +135,7 @@
 		"id": "c67ab8a12",
 		"title": "",
 		"subtitle": "",
-		"cover": "https://github.com/.png",		
+		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/Printit.png",		
 		"description": "",		
 		"skills": [
 			"",
@@ -161,7 +161,7 @@
 		"id": "c67ab8a13",
 		"title": "",
 		"subtitle": "",
-		"cover": "https://github.com/.png",		
+		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/Printit.png",		
 		"description": "",		
 		"skills": [
 			"",
@@ -187,7 +187,7 @@
 		"id": "c67ab8a14",
 		"title": "",
 		"subtitle": "",
-		"cover": "https://github.com/.png",		
+		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/Printit.png",		
 		"description": "",		
 		"skills": [
 			"",
