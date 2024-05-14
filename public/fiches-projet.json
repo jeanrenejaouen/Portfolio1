@@ -23,7 +23,7 @@
 	{
 		"id": "c67ab8a8",
 		"title": "Agence de voyage Booki",
-		"subtitle": "",
+		"subtitle": "Site web qui permet de trouver des hébergements et des activités par la ville de son choix.",
 		"cover": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/images/booki.png",		
 		"description": " J'ai effectué un stage en alternance en tant que développeur web au sein de la start-up Booki. Le projet était le développement du site internet de l’agence de voyage Booki permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix.  ",		
 		"skills": [
@@ -56,7 +56,7 @@
 	{
 		"id": "c67ab8a9",
 		"title": "Ohmyfood",
-		"subtitle": "",
+		"subtitle": "site web qui répertorie les menus de restaurants gastronomiques.",
 		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/Ohmyfood.png",		
 		"description": " J'ai intégré Ohmyfood en tant que développeur junior. Il s’agit d’une jeune startup qui voudrait s'imposer sur le marché de la restauration.Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. Ma mission était de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques.   ",		
 		"skills": [
@@ -82,7 +82,7 @@
 	{
 		"id": "c67ab8a10",
 		"title": "Print it !",
-		"subtitle": "",
+		"subtitle": "Site web statique d’une petite imprimerie familiale.",
 		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/Printit.png",		
 		"description": "Comme développeur front-end débutant en freelance, j'ai décroché une offre pour dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it. ",		
 		"skills": [
@@ -108,7 +108,7 @@
 	{
 		"id": "c67ab8a11",
 		"title": "Sophie Buel - Architecte",
-		"subtitle": "",
+		"subtitle": "Site portfolio d’une architecte d’intérieur.",
 		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/SophieBuel.png",		
 		"description": "J'ai travaillé comme développeur front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé mon dernier projet avec un peu d'avance, j'ai été envoyé en renfort comme développeur front-end dans une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur pour créer une page web dynamique avec Javascript.",		
 		"skills": [
@@ -134,7 +134,7 @@
 	{
 		"id": "c67ab8a12",
 		"title": "Qwenta",
-		"subtitle": "",
+		"subtitle": "Site “Menu Maker” qui permet aux restaurateurs d’afficher et de mettre en page leurs menus facilement.",
 		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/qwenta.png",		
 		"description": "En tant que développeur front-end au sein de l’agence Webgencia, j'ai préparé et planifié le projet de développement d’un site pour Qwenta, un de nos clients. Il s’agit d’un site “Menu Maker” permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement, en quelques clics. ",		
 		"skills": [
@@ -160,7 +160,7 @@
 	{
 		"id": "c67ab8a13",
 		"title": "Kasa",
-		"subtitle": "",
+		"subtitle": "Plateforme web de location d’appartements entre particuliers.",
 		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/Printit.png",		
 		"description": "J'ai été recruté chez Kasa en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web. Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France. ",		
 		"skills": [

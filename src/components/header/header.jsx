@@ -28,13 +28,13 @@ function Header() {
               <NavLink to="/">Accueil</NavLink>
             </li>
             <li>
-              <NavLink to="/apropos">A Propos</NavLink>
+              <NavLink to="/#apropos">A Propos</NavLink>
             </li>
             <li>
-              <NavLink to="/projets">Projets</NavLink>
+              <NavLink to="/#projets">Projets</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink to="/#contact">Contact</NavLink>
             </li>
           </ul>
         </nav>
