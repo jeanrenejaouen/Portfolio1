@@ -23,7 +23,7 @@
 	{
 		"id": "c67ab8a8",
 		"title": "Agence de voyage Booki",
-		"cover": "http://127.0.0.1:5500/Jaouen_JeanRen%C3%A9_1_images-code-html-et-css_2023-09-11/index.html",		
+		"cover": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/images/booki.png",		
 		"description": " J'ai effectué un stage en alternance en tant que développeur web au sein de la start-up Booki. Le projet était le développement du site internet de l’agence de voyage Booki permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix.  ",		
 		"skills": [
 			"Implémenter une interface responsive avec HTML et CSS",
