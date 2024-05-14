@@ -12,7 +12,7 @@ function FicheProjet() {
 
   const Projets = useFetchData(`/fiches-projet.json`)  
     
-  // Récupérer l'identifiant de l'appartement actuel
+  // Récupérer l'identifiant du projet actuel
   const idProjet = useParams("id").id
 
   // inclure dans un tableau "currentProjet" uniquement le projet avec l'identifiant récupéré ci-dessus 
@@ -28,7 +28,7 @@ function FicheProjet() {
   return (
       <>   
           {/* Afficher 'imgBanner.png' nommée 'AccueilImage' provenant du fichier image pour avoir la même
-           image de fond que sur la page d'accueil*/}
+           image de fond que sur la bannière de la page d'accueil*/}
           {/* Afficher le titre du projet courant */}
           {/* Afficher le sous-titre du projet courant */}
 

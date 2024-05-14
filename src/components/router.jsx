@@ -7,6 +7,7 @@ import Header from './header/header'
 import Footer from './footer/footer'
 
 
+
 function Router() {
     return (
         <BrowserRouter>
@@ -15,7 +16,8 @@ function Router() {
                 <Routes>
                     <Route path="/" element={<Accueil />} />                                    
                     <Route path="/ficheProjet/:id" element={<FicheProjet />} />                    
-                    <Route path="*" element={<Error />} />                   
+                    <Route path="*" element={<Error />} />    
+                                                  
                 </Routes>
             </main>
             <Footer/>            
