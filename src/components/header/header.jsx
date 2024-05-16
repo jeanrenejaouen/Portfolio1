@@ -1,6 +1,6 @@
 import React from 'react'
 // NavLink est similaire à Link, mais avec la possibilité d'ajouter des attributs de style supplémentaires à l'élément
-import {Link, NavLink} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import PhotoProfil from '../../assets/images/photo-profil.png'
 import './_header.scss'
 
@@ -24,17 +24,20 @@ function Header() {
 
         <nav>
           <ul className="nav">
-            <li>
-              <NavLink to="#">Accueil</NavLink>
+          <li>
+              <Link to="/">Accueil</Link>
             </li>
             <li>
-              <NavLink to="#a-propos">A Propos</NavLink>
+              <a href="#competences">Compétences</a>
             </li>
             <li>
-              <NavLink to="#projets">Projets</NavLink>
+              <a href="#a-propos">A Propos</a>
             </li>
             <li>
-              <NavLink to="#contact">Contact</NavLink>
+              <a href="#projets">Projets</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </nav>

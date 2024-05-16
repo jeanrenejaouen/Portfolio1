@@ -18,7 +18,7 @@ function FicheProjet() {
   // inclure dans un tableau "currentProjet" uniquement le projet avec l'identifiant récupéré ci-dessus 
   const currentProjet = Projets.filter(item => item.id === idProjet);
 
-  // si aucun appartement dans la table "currentProjet", appelez le composant "Error"
+  // si aucun projet dans la table "currentProjet", appelez le composant "Error"
   if (currentProjet.length === 0) {
       return (
           <Error />
@@ -27,15 +27,16 @@ function FicheProjet() {
 
   return (
       <>   
-          {/* Afficher 'imgBanner.png' nommée 'AccueilImage' provenant du fichier image pour avoir la même
-           image de fond que sur la bannière de la page d'accueil*/}
-          {/* Afficher le titre du projet courant */}
-          {/* Afficher le sous-titre du projet courant */}
+        {/* Afficher 'imgBanner.png' nommée 'AccueilImage' provenant du fichier image pour avoir la même
+        image de fond que sur la bannière de la page d'accueil*/}
+        {/* Afficher le titre du projet courant */}
+        {/* Afficher le sous-titre du projet courant */}
 
-          <Banner  image={AccueilImage} altText="Banner" 
-          title={currentProjet[0].title} 
-          text={currentProjet[0].subtitle}/> 
+        <Banner  image={AccueilImage} altText="Banner" 
+        title={currentProjet[0].title} 
+        text={currentProjet[0].subtitle}/> 
 
+        
       </>
     )}
   

@@ -1,0 +1,67 @@
+[
+    {
+        "id": "052024001",
+        "tiltle": "HTML",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/"
+    },
+    {
+        "id": "052024002",
+        "tiltle": "CSS",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/"
+    },
+    {
+        "id": "052024003",
+        "tiltle": "JavaScript",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/"
+    },
+    {
+        "id": "052024004",
+        "tiltle": "REACT",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/"
+    },
+    {
+        "id": "052024005",
+        "tiltle": "SASS",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/"
+    },
+    {
+        "id": "052024006",
+        "tiltle": "Figma",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/"
+    },
+    {
+        "id": "052024007",
+        "tiltle": "GIT",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/"
+    },
+    {
+        "id": "052024008",
+        "tiltle": "GitHub",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/"
+    },
+    {
+        "id": "052024009",
+        "tiltle": "Responsive Design",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/"
+    },
+    {
+        "id": "0520240010",
+        "tiltle": "SEO",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/"
+    },
+    {
+        "id": "0520240011",
+        "tiltle": "Visual Studio Code",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/"
+    },
+    {
+        "id": "0520240012",
+        "tiltle": "Redux",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/"
+    },
+    {
+        "id": "0520240013",
+        "tiltle": "Redux toolkit",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/"
+    }
+]
