@@ -1,4 +1,5 @@
 import React from 'react';
+import Competences from '../competences/competences.jsx'
 /* import './_a-propos.scss'; */
 
 function APropos() {
@@ -32,6 +33,8 @@ C’est pourquoi, après avoir négocié une rupture conventionnelle avec mon em
         </p>
         
     </div>
+
+        <Competences />
 
         </>
     )
