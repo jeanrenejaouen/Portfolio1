@@ -1,7 +1,7 @@
 import React from "react";
 import { useFetchData } from "../../hookFetch/useFetchData.js"
 import CardSkill from '../cardskill/cardskill.jsx'
-/* import './_competences.scss' */
+import './_competences.scss'
 
 function Competences() {
 
@@ -12,8 +12,7 @@ function Competences() {
         {skills.map((skill) => ( 
             <>
                 <article key={skill.id}>                       
-                    <CardSkill image={skill.picture} title={skill.title} />   
-
+                    <CardSkill image={skill.picture} title={skill.title} />  
                 </article> 
 
                

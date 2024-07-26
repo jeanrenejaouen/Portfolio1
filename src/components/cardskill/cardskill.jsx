@@ -1,5 +1,5 @@
 import React from "react"
-/* import './_cardskill.scss' */
+import './_cardskill.scss'
 
 function CardSkill ({image, title}) {    
     
@@ -9,9 +9,9 @@ function CardSkill ({image, title}) {
             <div className="cardskill_contentImg">
                 <img className="cardskill-Img" src={image} alt={title}/>
             </div>    
-            <div className="card_contentText">
+            <div className="cardskill_contentText">
                 <h3>
-                    <p className="card-Title">{title}</p>
+                    <p className="cardskill-Title">{title}</p>
                 </h3>     
                                                  
             </div>           

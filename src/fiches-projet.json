@@ -4,18 +4,20 @@
 		"title": "Rinding cities",
 		"subtitle": "Association sportive qui promeut le skate",
 		"cover": "https://www.neoglisse.fr/wp-content/uploads/2023/07/max-tarkhov-NG4684I8Bng-unsplash-min-1024x819.jpg",		
-		"description": "J'ai rejoint l’agence Webonzaï pour un stage en tant que développeur junior. Ma mission était de mettre à jour la page Internet de Riding Cities, une association sportive qui promeut le skate. ",		
+		"description": "J'ai rejoint l’agence Webonzaï pour un stage en tant que développeur junior.Ma mission était de mettre à jour la page Internet de Riding Cities, une association sportive qui promeut le skate. ",		
+		"context": "Ce projet est une introduction aux fondamentaux du langage HTML. Le but est de mettre à jour de la page web d’une association, en intégrant de nouveaux éléments conformément aux maquettes fournies.",
+		"skillsAssessed": ["Intégrer des éléments sur une page web en utilisant les fondamentaux de HTML"],
 		"skills": [
 			"HTML5",
 			"CSS3"
-		],
-		"assignment": [
-			"Créer une nouvelle section, “Les membres fondateurs”, contenant du texte et des images en colonnes avec les noms et photos des créateurs de l’association.",
+		],		
+		"assignments": [
+			"Créer une nouvelle section, 'Les membres fondateurs', contenant du texte et des images en colonnes avec les noms et photos des créateurs de l’association.",
 			"Modifier la section comprenant le bouton “Télécharger le planning de cours” pour ajouter un titre et deux boutons permettant de télécharger deux plannings de cours différents (un pour les enfants et un pour les adultes).",
 			"Rattacher les plannings de cours pour enfants et pour adultes aux boutons de téléchargement."
 		],
-		"resources": [
-			"Mettez en place votre environnement",
+		"ressources": [
+			"Mettez en place votre environnement. ",
 			"Créer votre site web avec HTML5 et CSS3"
 		]
 	},
@@ -26,12 +28,21 @@
 		"subtitle": "Trouver des hébergements et des activités dans la ville de son choix.",
 		"cover": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/images/booki.png",		
 		"description": " J'ai effectué un stage en alternance en tant que développeur web au sein de la start-up Booki. Le projet était le développement du site internet de l’agence de voyage Booki permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix.  ",		
-		"skills": [
-			"Implémenter une interface responsive avec HTML et CSS",
-			" Installer un environnement de développement front-end",
-			" Intégrer du contenu conformément à une maquette avec HTML et CSS"
+		"context": "Dans ce projet, le but est de créer la page d'accueil d'une agence de voyage en utilisant HTML et CSS.",
+		"skillsAssessed": [
+			"Implémenter une interface responsive avec HTML et CSS. ",
+			" Installer un environnement de développement front-end. ",
+			" Intégrer du contenu conformément à une maquette avec HTML et CSS."
 		],
-		"assignment": [
+		"skills": [
+			"HTML5",
+			"CSS3",
+			"Git",
+			"GitHub",
+			"VSCode",
+			"Figma"
+		],
+		"assignments": [
 			"Mettre en place votre environnement de développement : Visual Studio Code, Google Fonts et Font Awesome.",
 			"Découper la maquette représentant la structure du code HTML.",
 			"Intégrez le header du projet et utiliser Flexbox (ou Grid).",
@@ -43,7 +54,7 @@
 			" Implémenter le footer avec Flexbox",
 			"Mettre en place le responsive design (respecter les deux media queries définies : 1024px pour l’affichage tablette et 768px pour l’affichage mobile) "
 		],
-		"resources": [
+		"ressources": [
 			"Mettez en place votre environnement front-end",
 			"Créer votre site web avec HTML5 et CSS3",
 			"Corrigez vos bugs et trouvez une solution à vos problèmes de code",
@@ -58,14 +69,28 @@
 		"title": "Ohmyfood",
 		"subtitle": "site web qui répertorie les menus de restaurants gastronomiques.",
 		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/Ohmyfood.png",		
-		"description": " J'ai intégré Ohmyfood en tant que développeur junior. Il s’agit d’une jeune startup qui voudrait s'imposer sur le marché de la restauration.Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. Ma mission était de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques.   ",		
-		"skills": [
+		"description": " J'ai intégré Ohmyfood en tant que développeur junior. Il s’agit d’une jeune startup qui voudrait s'imposer sur le marché de la restauration.Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. Ma mission était de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques.",				
+		"context": [
+			"J'avais en charge le développement d'un site “mobile first” qui répertorie les menus de restaurants gastronomiques. ",
+			"En plus des systèmes classiques de réservation, les clients peuvent composer le menu de leur repas pour que les plats soient prêts à leur arrivée.",
+			"L’équipe commerciale a déjà réussi à convaincre 4 restaurateurs d’utiliser la plateforme OhMyFood.",
+			"Le site contiendra 4 menus dans un premier temps."
+		],
+		"skillsAssessed": [
 			"Intégrer une maquette en mobile-first",
 			"Mettre en œuvre des animations CSS soignées",
 			"Versionner son projet avec Git et Github",
 			"Utiliser SASS pour le style"
 		],
-		"assignment": [
+		"skills":  [
+			"HTML5",
+			"CSS3",
+			"Git",
+			"GitHub",
+			"VSCode",
+			"Figma"
+		],
+		"assignments": [
 			"Mettre en place votre environnement de développement : mettre le projet sur GitHub et créer une structure de projet contenant un dossier pour les assets, un dossier pour le SASS ou le CSS et un dossier pourles pages restaurants",
 			"Intégrer la version mobile de la page d’accueil sans les animations.",
 			"Ajouter les animations à la page d’accueil.",
@@ -73,7 +98,7 @@
 			"Intégrer le code d’une page de restaurant et valider la page au W3C pour le HTML et le CSS.",
 			"Copier la page de restaurant et adapter le contenu aux restaurants restants dans tous les formats. "			
 		],
-		"resources": [
+		"ressources": [
 			"Les maquettes desktop et mobile du site Ohmyfood.",
 			" Le prototype du site via Figma incluant les animations et comportements à intégrer.",
 			"Les fichiers sources (images et textes)."			
@@ -85,24 +110,30 @@
 		"subtitle": "Site web statique d’une petite imprimerie familiale.",
 		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/Printit.png",		
 		"description": "Comme développeur front-end débutant en freelance, j'ai décroché une offre pour dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it. ",		
-		"skills": [
-			"",
-			"",
-			"",
-			""
+		"context": "J'avais en charge de dynamiser le site Internet statique de l'imprimerie Print it. Ce projet avait pour but de découvrir le langage JavaScript.",
+		"skillsAssessed": [			
+			"Programmer en utilisant les fondamentaux de JavaScript"
 		],
-		"assignment": [
-			"",
-			"",
-			"",
-			"",
-			"",
-			""			
+		"skills":  [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Git",			
+			"GitHub",
+			"VSCode",
+			"Figma"
 		],
-		"resources": [
-			"",
-			"",
-			""			
+		"assignments": [
+			"Mettre à jour le code HTML afin de pouvoir avoir un carrousel dynamique.",
+			"Ajouter des Event Listeners sur les flèches afin de pouvoir gérer le changement des images du carrousel.",
+			" Ajouter des bullet points au slider pour savoir sur quelle slide on se trouve.",
+			"Modifier le slide au clic sur le bouton (image + bullet point).",
+			"Mettre en place le défilement infini sur le carrousel."					
+		],
+		"ressources": [
+			"Créer votre site web avec HTML5 et CSS3",
+			"Apprendre à programmer avec JavaScrip",
+			"Découvrir le fonctionnement des algorithmes"			
 		]
 	},
 	{
@@ -111,13 +142,15 @@
 		"subtitle": "Site portfolio d’une architecte d’intérieur.",
 		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/SophieBuel.png",		
 		"description": "J'ai travaillé comme développeur front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé mon dernier projet avec un peu d'avance, j'ai été envoyé en renfort comme développeur front-end dans une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur pour créer une page web dynamique avec Javascript.",		
+		"context": "",
+		"skillsAssessed": [""],
 		"skills": [
 			"",
 			"",
 			"",
 			""
 		],
-		"assignment": [
+		"assignments": [
 			"",
 			"",
 			"",
@@ -125,7 +158,7 @@
 			"",
 			""			
 		],
-		"resources": [
+		"ressources": [
 			"",
 			"",
 			""			
@@ -137,13 +170,15 @@
 		"subtitle": "Site web qui permet aux restaurateurs de créer et publier leur menu.",
 		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/qwenta.png",		
 		"description": "En tant que développeur front-end au sein de l’agence Webgencia, j'ai préparé et planifié le projet de développement d’un site pour Qwenta, un de nos clients. Il s’agit d’un site “Menu Maker” permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement, en quelques clics. ",		
+		"context": "",
+		"skillsAssessed": [""],
 		"skills": [
 			"",
 			"",
 			"",
 			""
 		],
-		"assignment": [
+		"assignments": [
 			"",
 			"",
 			"",
@@ -151,7 +186,7 @@
 			"",
 			""			
 		],
-		"resources": [
+		"ressources": [
 			"",
 			"",
 			""			
@@ -163,13 +198,15 @@
 		"subtitle": "Plateforme web de location d’appartements entre particuliers.",
 		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/kasa.png",		
 		"description": "J'ai été recruté chez Kasa en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web. Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France. ",		
+		"context": "",
+		"skillsAssessed": [""],
 		"skills": [
 			"",
 			"",
 			"",
 			""
 		],
-		"assignment": [
+		"assignments": [
 			"",
 			"",
 			"",
@@ -177,7 +214,7 @@
 			"",
 			""			
 		],
-		"resources": [
+		"ressources": [
 			"",
 			"",
 			""			
@@ -189,13 +226,15 @@
 		"subtitle": "Portfolio d'une photographe passionnée.",
 		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/ninacarducci.png",		
 		"description": "En tant que développeur freelance, j'ai décidé de proposer mes services d’optimisation SEO à de nouveaux clients.Pour ce faire, j'ai analysé plusieurs sites internet et pris contact avec les administrateurs des sites qui peuvent être optimisés pour leur proposer mes services.Parmi mes prospects, il y a le site de Nina Carducci, une photographe intéressée par ma proposition. ",		
+		"context": "",
+		"skillsAssessed": [""],
 		"skills": [
 			"",
 			"",
 			"",
 			""
 		],
-		"assignment": [
+		"assignments": [
 			"",
 			"",
 			"",
@@ -203,7 +242,63 @@
 			"",
 			""			
 		],
-		"resources": [
+		"ressources": [
+			"",
+			"",
+			""			
+		]
+	},
+	{
+		"id": "c67ab8a15",
+		"title": "724events",
+		"subtitle": "Agence d'évènementiel.",
+		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/724.png",		
+		"description": "Débugger le site vitrine d'une agence d'évènementiel. ",		
+		"context": "",
+		"skillsAssessed": [""],
+		"skills": [
+			"",
+			"",
+			"",
+			""
+		],
+		"assignments": [
+			"",
+			"",
+			"",
+			"",
+			"",
+			""			
+		],
+		"ressources": [
+			"",
+			"",
+			""			
+		]
+	},
+	{
+		"id": "c67ab8a16",
+		"title": "ArgentBank",
+		"subtitle": "Nouvelle banque en ligne.",
+		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/ninacarducci.png",		
+		"description": "Développer l'interface utilisateur de l'application bancaire, avec création d'un tableau de bord complet et responsive. ",		
+		"context": "",
+		"skillsAssessed": [""],
+		"skills": [
+			"",
+			"",
+			"",
+			""
+		],
+		"assignments": [
+			"",
+			"",
+			"",
+			"",
+			"",
+			""			
+		],
+		"ressources": [
 			"",
 			"",
 			""			

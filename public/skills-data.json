@@ -1,7 +1,7 @@
 [
     {
         "id": "052024001",
-        "title": "HTML",
+        "title": "HTML5",
         "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/html-logo.png"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
         "id": "052024009",
-        "title": "Responsive Design",
+        "title": "Responsive",
         "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/responsive-logo.png"
     },
     {
@@ -51,7 +51,7 @@
     },
     {
         "id": "0520240011",
-        "title": "Visual Studio Code",
+        "title": "VSCode",
         "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/vscode.png"
     },
     {
@@ -61,7 +61,7 @@
     },
     {
         "id": "0520240013",
-        "title": "Redux toolkit",
+        "title": "ReduxTools",
         "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/reduxtoolkit-logo.png"
     }
 ]

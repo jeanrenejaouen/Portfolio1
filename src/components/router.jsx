@@ -10,14 +10,15 @@ import Footer from './footer/footer'
 
 function Router() {
     return (
-        <BrowserRouter>
+        <BrowserRouter>        
             <Header/>
-            <main>
+            
+            <main>             
                 <Routes>
-                    <Route path="/" element={<Accueil />} />                                    
-                    <Route path="/ficheProjet/:id" element={<FicheProjet />} />                    
-                    <Route path="*" element={<Error />} />                                                  
-                </Routes>
+                    <Route path="/" element={<Accueil />} />                                                                            
+                    <Route path="/ficheProjet/:id" element={<FicheProjet />} />                   
+                    <Route path="*" element={<Error />} />                                                       
+                </Routes> 
             </main>
             <Footer/>            
         </BrowserRouter>

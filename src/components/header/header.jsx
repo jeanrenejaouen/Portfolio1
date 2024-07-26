@@ -28,16 +28,16 @@ function Header() {
               <Link to="/">Accueil</Link>
             </li>
             <li>
-              <a href="#competences">Compétences</a>
+              <a href="/#competences">Compétences</a>
             </li>
             <li>
-              <a href="#a-propos">A Propos</a>
+              <a href="/#a-propos">A Propos</a>
             </li>
             <li>
-              <a href="#projets">Projets</a>
+              <a href="/#projets">Projets</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="/#contact">Contact</a>
             </li>
           </ul>
         </nav>
