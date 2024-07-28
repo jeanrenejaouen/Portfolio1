@@ -17,14 +17,18 @@
 			"Rattacher les plannings de cours pour enfants et pour adultes aux boutons de téléchargement."
 		],
 		"ressources": [
-			"Mettez en place votre environnement. ",
+			"Mettre en place votre environnement. ",
 			"Créer votre site web avec HTML5 et CSS3"
-		]
+		],
+		"website": "",
+		"github": "",
+		"pdf": ""
+		
 	},
 
 	{
 		"id": "c67ab8a8",
-		"title": "Agence de voyage Booki",
+		"title": "Booki",
 		"subtitle": "Trouver des hébergements et des activités dans la ville de son choix.",
 		"cover": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/images/booki.png",		
 		"description": "Développer le site internet de l’agence de voyage Booki permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix.  ",		
@@ -61,7 +65,10 @@
 			"Intégrez une maquette Figma en HTML / CSS",
 			"Créez une maquette pour le développement web",
 			"Créez une maquette web avec Figma "
-		]
+		],
+		"website": " https://jeanrenejaouen.github.io/booki-starter-code/",
+		"github": "https://github.com/jeanrenejaouen/booki-starter-code",
+		"pdf": ""
 	},
 
 	{
@@ -91,7 +98,9 @@
 			"Figma"
 		],
 		"assignments": [
-			"Mettre en place votre environnement de développement : mettre le projet sur GitHub et créer une structure de projet contenant un dossier pour les assets, un dossier pour le SASS ou le CSS et un dossier pourles pages restaurants",
+			"Mettre en place l'environnement de développement.",
+			"Mettre le projet sur GitHub.",
+			"Créer une structure de projet contenant un dossier pour les assets, un dossier pour le SASS ou le CSS et un dossier pour les pages restaurants.",
 			"Intégrer la version mobile de la page d’accueil sans les animations.",
 			"Ajouter les animations à la page d’accueil.",
 			"Réaliser le responsive de la page d’accueil en identifiant des breakpoints standard afin d’éviter de multiplier les media queries.",
@@ -102,8 +111,12 @@
 			"Les maquettes desktop et mobile du site Ohmyfood.",
 			" Le prototype du site via Figma incluant les animations et comportements à intégrer.",
 			"Les fichiers sources (images et textes)."			
-		]
+		],
+		"website": "https://jeanrenejaouen.github.io/Ohmyfood/",
+		"github": "https://github.com/jeanrenejaouen/Ohmyfood",
+		"pdf": ""
 	},
+
 	{
 		"id": "c67ab8a10",
 		"title": "Print it !",
@@ -134,8 +147,12 @@
 			"Créer votre site web avec HTML5 et CSS3",
 			"Apprendre à programmer avec JavaScrip",
 			"Découvrir le fonctionnement des algorithmes"			
-		]
+		],
+		"website": "https://jeanrenejaouen.github.io/Print-it-JS/",
+		"github": "https://github.com/jeanrenejaouen/Print-it-JS",
+		"pdf": ""
 	},
+
 	{
 		"id": "c67ab8a11",
 		"title": "Sophie Buel - Architecte",
@@ -162,8 +179,12 @@
 			"",
 			"",
 			""			
-		]
+		],
+		"website": "",
+		"github": "https://github.com/jeanrenejaouen/Portfolio-architecte-sophie-bluel",
+		"pdf": ""
 	},
+
 	{
 		"id": "c67ab8a12",
 		"title": "Menu Maker by Qwenta",
@@ -190,8 +211,12 @@
 			"",
 			"",
 			""			
-		]
+		],
+		"website": "",
+		"github": "",
+		"pdf": ""
 	},
+
 	{
 		"id": "c67ab8a13",
 		"title": "Kasa",
@@ -218,8 +243,11 @@
 			"",
 			"",
 			""			
-		]
+		],
+		"website": "",
+		"github": "https://github.com/jeanrenejaouen/projet-8-kasa"
 	},
+
 	{
 		"id": "c67ab8a14",
 		"title": "Nina Carducci",
@@ -246,8 +274,12 @@
 			"",
 			"",
 			""			
-		]
+		],
+		"website": "https://jeanrenejaouen.github.io/ninacarducci.mod/",
+		"github": "https://github.com/jeanrenejaouen/ninacarducci.mod",
+		"pdf": ""
 	},
+
 	{
 		"id": "c67ab8a15",
 		"title": "724events",
@@ -274,8 +306,13 @@
 			"",
 			"",
 			""			
-		]
+		],
+		"website": "",
+		"github": "https://github.com/jeanrenejaouen/724events",
+		"pdf": "https://jeanrenejaouen.github.io/724events/jaouen_jeanrene_2_cahier%20de%20recette_072024.pdf",
+		"pdfName": "cahier recette"
 	},
+
 	{
 		"id": "c67ab8a16",
 		"title": "ArgentBank",
@@ -302,6 +339,9 @@
 			"",
 			"",
 			""			
-		]
+		],
+		"website": "",
+		"github": "https://github.com/jeanrenejaouen/ArgentBank-Website",
+		"pdf": ""
 	}
 ]

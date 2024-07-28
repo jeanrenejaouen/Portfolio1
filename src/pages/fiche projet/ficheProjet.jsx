@@ -3,7 +3,7 @@ import Banner from '../../components/banner/banner.jsx'
 import ProjetAssignment from '../../components/Passignment/Passignment.jsx'
 import ProjetContext from '../../components/Pcontext/Pcontext.jsx'
 import ProjetRessources from '../../components/Pressources/Pressources.jsx'
-import ProjetSkillsAssessed from '../../components/PskillsAssessed/PskillsAssessed.jsx'
+/* import ProjetSkillsAssessed from '../../components/PskillsAssessed/PskillsAssessed.jsx' */
 import ProjetSkills from '../../components/Pskills/Pskills.jsx'
 import AccueilImage from '../../assets/images/imgBanner.png'
 import { useParams } from 'react-router-dom'
@@ -59,25 +59,53 @@ function FicheProjet() {
         title={currentProjet[0].title} 
         text={currentProjet[0].subtitle}/>         
         <div className="pA">
-          <h2>Contexte</h2>            
-            <ProjetContext context={currentProjet[0].context} />            
-          <h2>Mission</h2>                                   
-            <ProjetAssignment assignment={currentProjet[0].assignments.map((assignment, index) => (
-                <li key={index}>{assignment}</li>
-            ))} />  
-                                      
-          <h2>Ressources</h2>
-            <ProjetRessources ressources={currentProjet[0].ressources.map((ressources, index) => (
-                <li key={index}>{ressources}</li>
-            ))} />
-          <h2>Compétences évaluées</h2>
-            <ProjetSkillsAssessed skillsAssessed={currentProjet[0].skillsAssessed.map((skillsAssessed, index) => (
-                <li key={index}>{skillsAssessed}</li>
-            ))} />
-          <h2>Outils utilisés</h2>  
-            <ProjetSkills skills={currentProjet[0].skills.map((skills, index) => (
-                <li key={index}>{skills}</li>
-            ))} />                  
+          <div className="projet-btn">   
+            {/* target="_blank": Cet attribut ouvre le lien dans un nouvel onglet.
+            rel="noopener noreferrer": Cet attribut est recommandé pour des raisons de sécurité et de performance.
+            noopener empêche la nouvelle page d'accéder à l'objet window de la page d'origine, et noreferrer empêche 
+            l'envoi du référent HTTP. 
+            De plus, Ligne 68 le lien ne sera rendu que si currentProjet[0].github existe et n'est pas une chaîne vide*/}                         
+              {currentProjet[0].github && currentProjet[0].github !== '' && (
+                <a className="btn" href={currentProjet[0].github} target="_blank" rel="noopener noreferrer">
+                  Github
+                </a>
+              )}
+              {currentProjet[0].website && currentProjet[0].website !== '' && (
+                <a className="btn" href={currentProjet[0].website} target="_blank" rel="noopener noreferrer">
+                  Site web
+                </a>
+              )}
+              {/* Ajout d'un fichier pdf sur le repository avec Upload files
+              Une fois le fichier sélectionné, cliquez sur "Commit changes" pour l'ajouter au dépôt
+              Déployer le dépot sur github page
+              Ajouter le nom du pdf à l'url de dépot pour accès direct au pdf (voir fiches-projet.json) */}  
+              {currentProjet[0].pdf && currentProjet[0].pdf !== '' && (
+                <a className="btn" href={currentProjet[0].pdf} target="_blank" rel="noopener noreferrer">
+                  {/* Ci-dessous utilisation de pdfName du fichier json pour customiser le nom du bouton */}
+                  {currentProjet[0].pdfName}
+                </a>
+              )}
+            {/* <a href={currentProjet[0].website} target="_blank" rel="noopener noreferrer">Site</a>  */}          
+          </div>
+            <h2>Contexte</h2>            
+              <ProjetContext context={currentProjet[0].context} />            
+            <h2>Mission réalisée</h2>                                   
+              <ProjetAssignment assignment={currentProjet[0].assignments.map((assignment, index) => (
+                  <li key={index}>{assignment}</li>
+              ))} />  
+                                        
+            <h2>Ressources</h2>
+              <ProjetRessources ressources={currentProjet[0].ressources.map((ressources, index) => (
+                  <li key={index}>{ressources}</li>
+              ))} />
+            {/* <h2>Compétences évaluées</h2>
+              <ProjetSkillsAssessed skillsAssessed={currentProjet[0].skillsAssessed.map((skillsAssessed, index) => (
+                  <li key={index}>{skillsAssessed}</li>
+              ))} /> */}
+            <h2>Outils utilisés</h2>  
+              <ProjetSkills skills={currentProjet[0].skills.map((skills, index) => (
+                  <li key={index}>{skills}</li>
+              ))} />                  
         </div>
         
       </>
