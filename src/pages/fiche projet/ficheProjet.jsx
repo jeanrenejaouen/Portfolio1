@@ -105,7 +105,11 @@ function FicheProjet() {
             <h2>Outils utilisés</h2>  
               <ProjetSkills skills={currentProjet[0].skills.map((skills, index) => (
                   <li key={index}>{skills}</li>
-              ))} />                  
+              ))} />  
+
+          <div className="projet-btn">
+            <a className="btn" href="#">Retour</a> 
+          </div>                
         </div>
         
       </>

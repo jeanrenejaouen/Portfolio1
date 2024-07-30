@@ -22,8 +22,8 @@ function Accueil() {
           <APropos />
         <a href= "#" title="RETOUR">
           <h2 id="projets">PROJETS REALISES</h2>
-        </a>  
-          <Gallery /> 
+        </a>            
+            <Gallery />            
         <a href= "#" title="RETOUR">       
           <h2 id="contact">CONTACT</h2>
         </a>   

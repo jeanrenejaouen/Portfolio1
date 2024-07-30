@@ -1,9 +1,11 @@
-.gallery {
-    width: 95%;
+.gallery {        
+    width: 93%;
     margin: 30px;    
     article {
         width: 100%;
-        position: relative;        
+        position: relative; 
+        display: grid;  
+        justify-items: center;     
         button {
             width: 200px;
             height: 40px;
@@ -11,10 +13,12 @@
             border-radius: 20px;
             border: none;
             color: white; 
-            cursor: pointer;                       
-            position: absolute;
-            top: 200px;
-            left: 420px;
+            cursor: pointer;  
+            margin-top: -100px;
+            z-index: 1;                     
+            /* position: absolute; */
+            /* top: 200px; */
+            /* left: 420px; */
             box-shadow: 5px 5px 10px 5px rgba(15, 15, 15, 0.3); 
             transition: transform .3s;
             a {
