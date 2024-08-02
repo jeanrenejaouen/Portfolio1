@@ -1,22 +1,80 @@
-import React from 'react'
+import React from 'react';
 import { useForm } from 'react-hook-form';
+import './form.scss';
 
 function Form() {
-    const { register, handleSubmit, formState: { errors } } = useForm();
-    const onSubmit = (data) => console.log(data); 
+  // Utilisation de useForm pour gérer le formulaire
+  /* const { register, handleSubmit, formState: { errors }, setError, reset } = useForm(); */
+  const { register, handleSubmit, formState: { errors }, reset } = useForm();  
 
-    return (
-        <form onSubmit={handleSubmit(onSubmit)}>
-            <input type='text' { ...register("firstname", { required: true})} />
-                {errors.firstname && <span>Please input your Firstname</span>}
+  // Fonction de soumission du formulaire
+  const onSubmit = data => {
+    console.log(data); // Affichage des données du formulaire dans la console
 
-            <input type='number' { ...register("age", {min: 18, max: 35,}) } />
-                {errors.age?.type === 'max' && <span> You are too old for this site</span>}
-                {errors.age?.type === 'min' && <span> You are too young for this site</span>}
+    
+  };
 
-            <button>Submit</button>
-        </form>
-    )
+  // Fonction pour réinitialiser le formulaire
+  const onReset = () => {
+    reset();
+  };
+
+  return (
+    <form onSubmit={handleSubmit(onSubmit)} className="form-container">
+        <div>
+            <label>Nom :</label>
+            <input
+            type="text"
+            className="medium-input"
+            id="lastName"
+            name="lastName"
+            {...register("lastName", { required: 'Ce champ est requis' })}
+            />
+            {errors.lastName && <span>{errors.lastName.message}</span>}
+        </div>
+        <div>
+            <label>Prénom :</label>
+            <input
+            type="text"
+            className="medium-input"
+            id="firstName"
+            name="firstName"
+            {...register("firstName", { required: 'Ce champ est requis' })}
+            />
+            {errors.firstName && <span>{errors.firstName.message}</span>}
+        </div>
+       
+        <div>
+            <label>Email :</label>
+            <input
+            type="email"
+            className="long-input"
+            id="email"
+            name="email"
+            {...register("email", { 
+                required: 'Ce champ est requis', 
+                pattern: {
+                value: /^\S+@\S+$/i,
+                message: 'Adresse email invalide'
+                }
+        
+            })}
+            />
+            {errors.email && <span>{errors.email.message}</span>}
+        </div>
+
+        <div>
+            <label>Message :</label>
+            <textarea           
+            className="medium-input" title="message" id="message" cols="30" rows="10" {...register} ></textarea>          
+        </div>
+        
+        <div>
+            <input type="submit" value="Envoyer" />
+            <button type="button" onClick={onReset}>Réinitialiser</button>
+        </div>
+    </form>
+  );
 }
 
 export default Form;
