@@ -2,16 +2,20 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import './form.scss';
 
+import { yupResolver } from '@hookform/resolvers/yup';
+/* importer tout yup (* as yup) */
+import * as yup from 'yup';
+
 function Form() {
   // Utilisation de useForm pour gérer le formulaire
   /* const { register, handleSubmit, formState: { errors }, setError, reset } = useForm(); */
-  const { register, handleSubmit, formState: { errors }, reset } = useForm();  
+  const { register, handleSubmit, formState: { errors }, reset } = useForm(); 
+  
+  
 
   // Fonction de soumission du formulaire
   const onSubmit = data => {
-    console.log(data); // Affichage des données du formulaire dans la console
-
-    
+    console.log(data); // Affichage des données du formulaire dans la console    
   };
 
   // Fonction pour réinitialiser le formulaire
@@ -66,7 +70,7 @@ function Form() {
         <div>
             <label>Message :</label>
             <textarea           
-            className="medium-input" title="message" id="message" cols="30" rows="10" {...register} ></textarea>          
+            className="medium-input" title="message" id="message" cols="30" rows="10" {...register("message")} ></textarea>          
         </div>
         
         <div>

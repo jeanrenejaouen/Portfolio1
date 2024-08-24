@@ -38,8 +38,8 @@
   /* Style pour les inputs */
   .form-container input[type="text"],
   .form-container input[type="number"],
-  .form-container input[type="email"],
-  .form-container input[type="password"] {
+  .form-container input[type="email"]
+   {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -48,6 +48,7 @@
   
   /* Style pour les messages d'erreur */
   .form-container span {
+    display: flex;
     color: #d9534f;
     font-size: 0.9em;
   }
