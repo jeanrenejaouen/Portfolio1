@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Accueil from '../pages/accueil/accueil.jsx'
 import FicheProjet from '../pages/fiche projet/ficheProjet.jsx'
 import Error from '../pages/error/error.jsx'
