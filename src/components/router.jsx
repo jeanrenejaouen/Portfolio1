@@ -10,7 +10,7 @@ import Footer from './footer/footer'
 
 function Router() {
     return (
-        <BrowserRouter basename={process.env.PUBLIC_URL}>        
+        <BrowserRouter>        
             <Header/>
             
             <main>             
