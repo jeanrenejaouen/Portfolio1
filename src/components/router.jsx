@@ -10,7 +10,8 @@ import Footer from './footer/footer'
 
 function Router() {
     return (
-        <BrowserRouter>        
+         
+        <HashRouter>       
             <Header/>
             
             <main>             
@@ -20,8 +21,9 @@ function Router() {
                     <Route path="*" element={<Error />} />                                                       
                 </Routes> 
             </main>
-            <Footer/>            
-        </BrowserRouter>
+            <Footer/> 
+        </HashRouter>           
+        
     )
 }
 
