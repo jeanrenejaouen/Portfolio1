@@ -12,7 +12,7 @@ function Router() {
     return (
          
         <HashRouter>       
-        <BrowserRouter basename={process.env.PUBLIC_URL}>        
+               
             <Header/>
             
             <main>             
