@@ -23,7 +23,7 @@ function Accueil() {
             </a>
           </h2>
           <Competences />
-         
+                 
           <h2 id="a-propos">A PROPOS DE MOI
             <a href= "#" title="RETOUR">  
               <FontAwesomeIcon icon={faHouse} className="custom-icon" />
