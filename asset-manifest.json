@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.227412f1.chunk.css",
-    "main.js": "/static/js/main.f33f1803.chunk.js",
-    "main.js.map": "/static/js/main.f33f1803.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.351e9c47.js",
-    "runtime-main.js.map": "/static/js/runtime-main.351e9c47.js.map",
-    "static/js/2.7e38060a.chunk.js": "/static/js/2.7e38060a.chunk.js",
-    "static/js/2.7e38060a.chunk.js.map": "/static/js/2.7e38060a.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.aa123809132ef7fc988b27dfbdf57e8c.js": "/precache-manifest.aa123809132ef7fc988b27dfbdf57e8c.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.227412f1.chunk.css.map": "/static/css/main.227412f1.chunk.css.map",
-    "static/js/2.7e38060a.chunk.js.LICENSE.txt": "/static/js/2.7e38060a.chunk.js.LICENSE.txt",
-    "static/media/imgBanner.png": "/static/media/imgBanner.3d5fc962.png",
-    "static/media/photo-profil.png": "/static/media/photo-profil.4e667dc2.png"
+    "main.css": "/Portfolio/static/css/main.227412f1.chunk.css",
+    "main.js": "/Portfolio/static/js/main.f33f1803.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.f33f1803.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.0d26a884.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.0d26a884.js.map",
+    "static/js/2.7e38060a.chunk.js": "/Portfolio/static/js/2.7e38060a.chunk.js",
+    "static/js/2.7e38060a.chunk.js.map": "/Portfolio/static/js/2.7e38060a.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.349328c171e9bde4ed8c75e0af27e221.js": "/Portfolio/precache-manifest.349328c171e9bde4ed8c75e0af27e221.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.227412f1.chunk.css.map": "/Portfolio/static/css/main.227412f1.chunk.css.map",
+    "static/js/2.7e38060a.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.7e38060a.chunk.js.LICENSE.txt",
+    "static/media/imgBanner.png": "/Portfolio/static/media/imgBanner.3d5fc962.png",
+    "static/media/photo-profil.png": "/Portfolio/static/media/photo-profil.4e667dc2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.351e9c47.js",
+    "static/js/runtime-main.0d26a884.js",
     "static/js/2.7e38060a.chunk.js",
     "static/css/main.227412f1.chunk.css",
     "static/js/main.f33f1803.chunk.js"
